@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu:14.04
+FROM ubuntu:14.04
 
 # Install deps in order to add PPA
 RUN apt-get -qq update && apt-get -y install software-properties-common
